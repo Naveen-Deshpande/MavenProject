@@ -25,7 +25,7 @@ pipeline {
             }
             stage("Email Build Status") {
                   steps {
-                        mail bcc: '', body: 'Sample body', cc: '', from: '', replyTo: '', subject: 'Sample Subject', to: 'gurumadhav08@gmail.com'
+                        mail body: 'Sample body', cc: '', from: '', replyTo: '', subject: 'Sample Subject', to: 'gurumadhav08@gmail.com'
                   }
             }
        }
